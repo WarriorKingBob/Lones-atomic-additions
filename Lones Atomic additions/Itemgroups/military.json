@@ -1,0 +1,10 @@
+[
+  {
+    "type": "item_group",
+    "id": "army_personal_locker",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "atomic_military_watch", "prob": 5 }
+    ]
+  }
+]
