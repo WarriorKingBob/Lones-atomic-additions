@@ -440,5 +440,37 @@
     "coverage": 15,
     "symbol": "[",
     "use_action": [ "PORTABLE_GAME", "WEATHER_TOOL" ]
-  }
+  },
+  {
+  "id": "atomic_chainsaw",
+  "type": "TOOL",
+  "category": "tools",
+  "name": { "str": "atomic chainsaw" },
+  "description": "A retro-futuristic chainsaw powered by a sealed atomic microcell. It hums softly even when idle, its chain spinning up instantly without fuel or batteries. Heavier than a normal electric chainsaw, but never needs recharging.",
+  "weight": "6500 g",
+  "volume": "7500 ml",
+  "price": 120000,
+  "price_postapoc": 5000,
+  "to_hit": -2,
+  "bashing": 12,
+  "cutting": 28,
+  "material": [ "steel", "plastic" ],
+  "symbol": ";",
+  "color": "light_red",
+  "flags": [ "ALWAYS_POWERED", "DURABLE_MELEE", "NONCONDUCTIVE", "ATOMIC_LIGHT" ],
+  "use_action": {
+    "type": "CHAINSAW",
+    "noise": 90,
+    "moves_per_turn": 6
+  },
+  "qualities": [
+    [ "CUT", 2 ],
+    [ "SAW_M", 1 ]
+  ],
+  "techniques": [ "BRUTAL", "WIDE" ],
+  "revert_to": "atomic_chainsaw_off",
+  "turns_per_charge": 0,
+  "charges_per_use": 0
+}
+
 ]
