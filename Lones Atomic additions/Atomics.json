@@ -442,35 +442,75 @@
     "use_action": [ "PORTABLE_GAME", "WEATHER_TOOL" ]
   },
   {
-  "id": "atomic_chainsaw",
+  "id": "atomic_chainsaw_off",
   "type": "TOOL",
-  "category": "tools",
-  "name": { "str": "atomic chainsaw" },
-  "description": "A retro-futuristic chainsaw powered by a sealed atomic microcell. It hums softly even when idle, its chain spinning up instantly without fuel or batteries. Heavier than a normal electric chainsaw, but never needs recharging.",
-  "weight": "6500 g",
-  "volume": "7500 ml",
-  "price": 120000,
-  "price_postapoc": 5000,
-  "to_hit": -2,
-  "bashing": 12,
-  "cutting": 28,
+  "category": "tools_farming",
+  "name": { "str": "atomic chainsaw (off)", "str_pl": "atomic chainsaws (off)" },
+  "description": "A retro-futuristic chainsaw powered by a sealed atomic microcell. When switched on, it becomes a brutally effective cutting tool without ever needing fuel.",
+  "weight": "6577 g",
+  "volume": "2500 ml",
+  "price": "120 USD",
+  "price_postapoc": "5 USD",
+  "to_hit": -3,
+  "bashing": 10,
   "material": [ "steel", "plastic" ],
-  "symbol": ";",
+  "symbol": "/",
   "color": "light_red",
-  "flags": [ "ALWAYS_POWERED", "DURABLE_MELEE", "NONCONDUCTIVE", "ATOMIC_LIGHT" ],
-  "use_action": {
-    "type": "CHAINSAW",
-    "noise": 90,
-    "moves_per_turn": 6
-  },
-  "qualities": [
-    [ "CUT", 2 ],
-    [ "SAW_M", 1 ]
-  ],
-  "techniques": [ "BRUTAL", "WIDE" ],
-  "revert_to": "atomic_chainsaw_off",
-  "turns_per_charge": 0,
-  "charges_per_use": 0
-}
 
+  "ammo": "battery",
+  "max_charges": 1000,
+  "initial_charges": 1000,
+  "artifact_data": { "charge_type": "ARTC_SOLAR" },
+
+  "techniques": [ "SWEEP" ],
+  "qualities": [ [ "AXE", 5 ] ],
+  "crafting_speed_modifier": 1.5,
+
+  "use_action": {
+    "type": "transform",
+    "active": true,
+    "target": "atomic_chainsaw_on",
+    "msg": "You activate the atomic chainsaw.",
+    "moves": 80,
+    "transform_charges": 5,
+    "need_dry": true
+  },
+
+  "flags": [ "NONCONDUCTIVE", "POWERED", "COMBAT_NPC_USE" ]
+},
+{
+  "id": "atomic_chainsaw_on",
+  "copy-from": "atomic_chainsaw_off",
+  "type": "TOOL",
+  "name": { "str": "atomic chainsaw (on)", "str_pl": "atomic chainsaws (on)" },
+  "description": "This atomic chainsaw is active, humming with a steady nuclear whirr. Use it to turn it off.",
+  "to_hit": -1,
+  "bashing": 4,
+  "cutting": 70,
+
+  "turns_per_charge": 4,
+  "charges_per_use": 0,
+
+  "revert_to": "atomic_chainsaw_off",
+  "revert_msg": "Your atomic chainsaw winds down.",
+
+  "techniques": [ "SWEEP" ],
+  "qualities": [ [ "BUTCHER", -100 ] ],
+
+  "use_action": {
+    "type": "transform",
+    "target": "atomic_chainsaw_off",
+    "msg": "You turn off the atomic chainsaw."
+  },
+
+  "flags": [
+    "MESSY",
+    "TRADER_AVOID",
+    "NONCONDUCTIVE",
+    "FRAGILE_MELEE",
+    "WATER_DISABLE",
+    "COMBAT_NPC_USE",
+    "COMBAT_NPC_ON"
+  ]
+}
 ]
