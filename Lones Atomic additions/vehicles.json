@@ -165,5 +165,650 @@
         "parts": [ "frame_cross", "cargo_space" ]
       }
     ]
+  },
+  {
+    "id": "hover_compact_atomic",
+    "type": "vehicle",
+    "name": "Atomic Hover Compact",
+    "parts": [
+      {
+        "x": 0,
+        "y": 0,
+        "parts": [ "xlframe_vertical_2", "seat", "seatbelt", "roof", "controls", "dashboard", "vehicle_alarm", "vehicle_clock", "stereo", "horn_car", "vtol_thruster" ]
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "parts": [ "xlframe_vertical_2", "door" ]
+      },
+      {
+        "x": 0,
+        "y": -1,
+        "parts": [ "xlframe_vertical", "door" ]
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "parts": [ "xlframe_horizontal", "windshield", "headlight" ]
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "parts": [ "xlframe_horizontal", "xlhalfboard_vertical" ]
+      },
+      {
+        "x": 1,
+        "y": -1,
+        "parts": [ "xlframe_vertical", "xlhalfboard_vertical" ]
+      },
+      {
+        "x": -1,
+        "y": 0,
+        "parts": [ "xlframe_ne", "seat", "seatbelt", "roof", "small_storage_battery", "solar_panel_v3" ]
+      },
+      {
+        "x": -1,
+        "y": -1,
+        "parts": [ "xlframe_horizontal", "xlhalfboard_vertical" ]
+      },
+      {
+        "x": -1,
+        "y": 1,
+        "parts": [ "hdframe_nw", "minireactor", "engine_electric", "halfboard_cover", "plating_steel" ]
+      },
+      {
+        "x": -2,
+        "y": -1,
+        "parts": [ "xlframe_horizontal", "xlhalfboard_sw" ]
+      },
+      {
+        "x": -2,
+        "y": 0,
+        "parts": [ "xlframe_horizontal", "windshield" ]
+      },
+      {
+        "x": -2,
+        "y": 1,
+        "parts": [ "xlframe_horizontal", "engine_electric", "halfboard_vertical_2", "plating_steel" ]
+      }
+    ]
+  },
+  {
+    "id": "hover_car_sports_atomic",
+    "type": "vehicle",
+    "name": "Atomic Hover Sport",
+    "parts": [
+      {
+        "x": 0,
+        "y": 0,
+        "parts": [ "frame_vertical_2", "seat_leather", "seatbelt", "controls", "dashboard", "vehicle_alarm", "stereo", "horn_car", "roof" ]
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "parts": [ "frame_vertical_2", "seat_leather", "seatbelt", "roof" ]
+      },
+      {
+        "x": 0,
+        "y": -1,
+        "parts": [ "frame_vertical", "door_rear_left" ]
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "parts": [ "frame_vertical", "door_rear_right" ]
+      },
+      {
+        "x": -1,
+        "y": 0,
+        "parts": [ "frame_vertical_2", "windshield", "roof" ]
+      },
+      {
+        "x": -1,
+        "y": 1,
+        "parts": [ "frame_vertical_2", "windshield", "roof" ]
+      },
+      {
+        "x": -1,
+        "y": -1,
+        "parts": [ "frame_vertical", "halfboard_vertical_left" ]
+      },
+      {
+        "x": -1,
+        "y": 2,
+        "parts": [ "frame_vertical", "halfboard_vertical_right" ]
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "parts": [ "frame_horizontal", "windshield_horizontal_front" ]
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "parts": [ "frame_horizontal", "windshield_horizontal_front" ]
+      },
+      {
+        "x": 1,
+        "y": -1,
+        "parts": [ "frame_vertical", "windshield_nw" ]
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "parts": [ "frame_vertical", "windshield_ne" ]
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "parts": [ "frame_horizontal", "halfboard_horizontal_front" ]
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "parts": [ "frame_horizontal", "halfboard_horizontal_front" ]
+      },
+      {
+        "x": 2,
+        "y": -1,
+        "parts": [ "frame_nw", "halfboard_nw", "headlight", "vtol_thruster" ]
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "parts": [ "frame_ne", "halfboard_ne", "headlight", "vtol_thruster" ]
+      },
+      {
+        "x": -2,
+        "y": 0,
+        "parts": [ "hdframe_vertical", "minireactor", "halfboard_cover", "plating_steel", "solar_panel_v3" ]
+      },
+      {
+        "x": -2,
+        "y": 1,
+        "parts": [ "hdframe_vertical", "storage_battery_mount", "storage_battery_removable", "halfboard_cover", "plating_steel", "solar_panel_v3" ]
+      },
+      {
+        "x": -2,
+        "y": -1,
+        "parts": [ "frame_vertical", "halfboard_vertical_left" ]
+      },
+      {
+        "x": -2,
+        "y": 2,
+        "parts": [ "frame_vertical", "halfboard_vertical_right" ]
+      },
+      {
+        "x": -3,
+        "y": -1,
+        "parts": [ "frame_horizontal", "halfboard_sw", "vtol_thruster" ]
+      },
+      {
+        "x": -3,
+        "y": 0,
+        "parts": [ "hdframe_horizontal", "halfboard_horizontal_rear", "plating_steel", "engine_electric_enhanced" ]
+      },
+      {
+        "x": -3,
+        "y": 1,
+        "parts": [ "hdframe_horizontal", "halfboard_horizontal", "engine_electric_enhanced", "plating_steel" ]
+      },
+      {
+        "x": -3,
+        "y": 2,
+        "parts": [ "frame_horizontal", "halfboard_se", "vtol_thruster" ]
+      }
+    ]
+  },
+  {
+    "id": "hover_suv_atomic",
+    "type": "vehicle",
+    "name": "Atomic Hover SUV",
+    "parts": [
+      {
+        "x": 0,
+        "y": 0,
+        "parts": [ "frame_vertical_2", "reclining_seat", "seatbelt", "controls", "dashboard", "vehicle_clock", "vehicle_alarm", "stereo", "horn_car", "roof" ]
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "parts": [ "frame_vertical_2", "box", "roof" ]
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "parts": [ "frame_vertical_2", "reclining_seat", "seatbelt", "roof" ]
+      },
+      {
+        "x": 0,
+        "y": -1,
+        "parts": [ "frame_vertical", "door" ]
+      },
+      {
+        "x": 0,
+        "y": 3,
+        "parts": [ "frame_vertical", "door" ]
+      },
+      {
+        "x": -1,
+        "y": 0,
+        "parts": [ "frame_vertical_2", "seat", "seatbelt", "roof" ]
+      },
+      {
+        "x": -1,
+        "y": 1,
+        "parts": [ "frame_vertical_2", "seat", "seatbelt", "roof", "solar_panel_v3" ]
+      },
+      {
+        "x": -1,
+        "y": 2,
+        "parts": [ "frame_vertical_2", "seat", "seatbelt", "roof" ]
+      },
+      {
+        "x": -1,
+        "y": -1,
+        "parts": [ "frame_vertical", "door" ]
+      },
+      {
+        "x": -1,
+        "y": 3,
+        "parts": [ "frame_vertical", "door" ]
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "parts": [ "frame_horizontal", "windshield" ]
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "parts": [ "frame_horizontal", "windshield" ]
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "parts": [ "frame_horizontal", "windshield" ]
+      },
+      {
+        "x": 1,
+        "y": -1,
+        "parts": [ "frame_vertical", "windshield" ]
+      },
+      {
+        "x": 1,
+        "y": 3,
+        "parts": [ "frame_vertical", "windshield" ]
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "parts": [ "frame_horizontal", "halfboard_horizontal" ]
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "parts": [ "frame_horizontal", "halfboard_horizontal" ]
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "parts": [ "frame_horizontal", "halfboard_horizontal" ]
+      },
+      {
+        "x": 2,
+        "y": -1,
+        "parts": [ "frame_nw", "halfboard_nw", "headlight", "vtol_thruster" ]
+      },
+      {
+        "x": 2,
+        "y": 3,
+        "parts": [ "frame_ne", "halfboard_ne", "headlight", "vtol_thruster" ]
+      },
+      {
+        "x": -2,
+        "y": 0,
+        "parts": [ "frame_vertical", "trunk", "roof", "solar_panel_v3" ]
+      },
+      {
+        "x": -2,
+        "y": 1,
+        "parts": [ "hdframe_vertical", "minireactor", "halfboard_cover", "plating_steel" ]
+      },
+      {
+        "x": -2,
+        "y": 2,
+        "parts": [ "frame_vertical", "trunk", "roof", "solar_panel_v3" ]
+      },
+      {
+        "x": -2,
+        "y": -1,
+        "parts": [ "frame_vertical", "halfboard_vertical" ]
+      },
+      {
+        "x": -2,
+        "y": 3,
+        "parts": [ "frame_vertical", "halfboard_vertical" ]
+      },
+      {
+        "x": -3,
+        "y": -1,
+        "parts": [ "frame_horizontal", "halfboard_sw", "vtol_thruster" ]
+      },
+      {
+        "x": -3,
+        "y": 0,
+        "parts": [ "frame_horizontal", "door_trunk" ]
+      },
+      {
+        "x": -3,
+        "y": 1,
+        "parts": [ "frame_horizontal_2", "engine_electric_large", "storage_battery", "halfboard_vertical_2", "plating_steel" ]
+      },
+      {
+        "x": -3,
+        "y": 2,
+        "parts": [ "frame_horizontal", "door_trunk" ]
+      },
+      {
+        "x": -3,
+        "y": 3,
+        "parts": [ "frame_horizontal", "halfboard_se", "vtol_thruster" ]
+      }
+    ]
+  },
+  {
+    "id": "hover_car_atomic",
+    "type": "vehicle",
+    "name": "Atomic Hover Car",
+    "parts": [
+      {
+        "x": 0,
+        "y": 0,
+        "parts": [ "frame_vertical_2", "reclining_seat", "seatbelt", "controls", "dashboard", "vehicle_clock", "vehicle_alarm", "stereo", "horn_car", "roof" ]
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "parts": [ "frame_vertical_2", "reclining_seat", "seatbelt", "roof" ]
+      },
+      {
+        "x": 0,
+        "y": -1,
+        "parts": [ "frame_vertical", "door" ]
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "parts": [ "frame_vertical", "door" ]
+      },
+      {
+        "x": -1,
+        "y": 0,
+        "parts": [ "frame_vertical_2", "seat", "seatbelt", "roof", "solar_panel_v3" ]
+      },
+      {
+        "x": -1,
+        "y": 1,
+        "parts": [ "frame_vertical_2", "seat", "seatbelt", "roof", "solar_panel_v3" ]
+      },
+      {
+        "x": -1,
+        "y": -1,
+        "parts": [ "frame_vertical", "door" ]
+      },
+      {
+        "x": -1,
+        "y": 2,
+        "parts": [ "frame_vertical", "door" ]
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "parts": [ "frame_horizontal", "windshield" ]
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "parts": [ "frame_horizontal", "windshield" ]
+      },
+      {
+        "x": 1,
+        "y": -1,
+        "parts": [ "frame_vertical", "windshield" ]
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "parts": [ "frame_vertical", "windshield" ]
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "parts": [ "frame_horizontal", "halfboard_horizontal", "engine_electric_large", "storage_battery", "plating_steel" ]
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "parts": [ "hdframe_horizontal", "minireactor", "halfboard_horizontal", "plating_steel" ]
+      },
+      {
+        "x": 2,
+        "y": -1,
+        "parts": [ "frame_nw", "halfboard_nw", "headlight", "vtol_thruster" ]
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "parts": [ "frame_ne", "halfboard_ne", "headlight", "vtol_thruster" ]
+      },
+      {
+        "x": -2,
+        "y": 0,
+        "parts": [ "frame_vertical", "trunk", "roof" ]
+      },
+      {
+        "x": -2,
+        "y": 1,
+        "parts": [ "frame_vertical", "trunk", "roof" ]
+      },
+      {
+        "x": -2,
+        "y": -1,
+        "parts": [ "frame_vertical", "halfboard_vertical" ]
+      },
+      {
+        "x": -2,
+        "y": 2,
+        "parts": [ "frame_vertical", "halfboard_vertical" ]
+      },
+      {
+        "x": -3,
+        "y": -1,
+        "parts": [ "frame_horizontal", "halfboard_sw", "vtol_thruster" ]
+      },
+      {
+        "x": -3,
+        "y": 0,
+        "parts": [ "frame_horizontal", "door_trunk" ]
+      },
+      {
+        "x": -3,
+        "y": 1,
+        "parts": [ "frame_horizontal", "door_trunk" ]
+      },
+      {
+        "x": -3,
+        "y": 2,
+        "parts": [ "frame_horizontal", "halfboard_se", "vtol_thruster" ]
+      }
+    ]
+  },
+  {
+    "id": "hover_truck_atomic",
+    "type": "vehicle",
+    "name": "Atomiv Hover Truck",
+    "parts": [
+      {
+        "x": 0,
+        "y": 0,
+        "parts": [ "frame_vertical_2", "seat_leather", "seatbelt", "controls", "dashboard", "vehicle_alarm", "stereo", "horn_car", "roof" ]
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "parts": [ "frame_vertical_2", "seat_leather", "seatbelt", "roof" ]
+      },
+      {
+        "x": 0,
+        "y": -1,
+        "parts": [ "frame_vertical", "door_rear_left" ]
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "parts": [ "frame_vertical", "door_rear_right" ]
+      },
+      {
+        "x": -1,
+        "y": 0,
+        "parts": [ "frame_vertical_2", "roof", "seat_leather", "solar_panel_v3" ]
+      },
+      {
+        "x": -1,
+        "y": 1,
+        "parts": [ "frame_vertical_2", "roof", "seat_leather", "solar_panel_v3" ]
+      },
+      {
+        "x": -1,
+        "y": -1,
+        "parts": [ "frame_vertical", "door_vertical_left" ]
+      },
+      {
+        "x": -1,
+        "y": 2,
+        "parts": [ "frame_vertical", "door_vertical_right" ]
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "parts": [ "frame_horizontal", "windshield_horizontal_front" ]
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "parts": [ "frame_horizontal", "windshield_horizontal_front" ]
+      },
+      {
+        "x": 1,
+        "y": -1,
+        "parts": [ "frame_vertical", "windshield_nw" ]
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "parts": [ "frame_vertical", "windshield_ne" ]
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "parts": [ "frame_horizontal", "halfboard_horizontal_front" ]
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "parts": [ "frame_horizontal", "halfboard_horizontal_front" ]
+      },
+      {
+        "x": 2,
+        "y": -1,
+        "parts": [ "frame_nw", "halfboard_nw", "headlight", "vtol_thruster" ]
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "parts": [ "frame_ne", "halfboard_ne", "headlight", "vtol_thruster" ]
+      },
+      {
+        "x": -2,
+        "y": 0,
+        "parts": [ "hdframe_vertical", "minireactor", "plating_steel", "windshield" ]
+      },
+      {
+        "x": -2,
+        "y": 1,
+        "parts": [ "hdframe_vertical", "storage_battery_mount", "storage_battery_removable", "plating_steel", "windshield" ]
+      },
+      {
+        "x": -2,
+        "y": -1,
+        "parts": [ "frame_vertical", "halfboard_vertical_left" ]
+      },
+      {
+        "x": -2,
+        "y": 2,
+        "parts": [ "frame_vertical", "halfboard_vertical_right" ]
+      },
+      {
+        "x": -3,
+        "y": -1,
+        "parts": [ "frame_horizontal", "stowboard_vertical" ]
+      },
+      {
+        "x": -3,
+        "y": 0,
+        "parts": [ "hdframe_horizontal", "engine_electric_enhanced", "plating_steel", "cargo_space" ]
+      },
+      {
+        "x": -3,
+        "y": 1,
+        "parts": [ "hdframe_horizontal", "engine_electric_enhanced", "plating_steel", "cargo_space" ]
+      },
+      {
+        "x": -3,
+        "y": 2,
+        "parts": [ "frame_horizontal", "stowboard_vertical" ]
+      },
+      {
+        "x": -4,
+        "y": -1,
+        "parts": [ "frame_vertical", "halfboard_vertical", "vtol_thruster" ]
+      },
+      {
+        "x": -4,
+        "y": 2,
+        "parts": [ "frame_vertical", "halfboard_vertical_right", "vtol_thruster" ]
+      },
+      {
+        "x": -5,
+        "y": -1,
+        "parts": [ "frame_horizontal", "halfboard_sw" ]
+      },
+      {
+        "x": -5,
+        "y": 2,
+        "parts": [ "frame_ne", "halfboard_se" ]
+      },
+      {
+        "x": -5,
+        "y": 1,
+        "parts": [ "frame_horizontal", "door_trunk" ]
+      },
+      {
+        "x": -5,
+        "y": 0,
+        "parts": [ "frame_horizontal", "door_trunk" ]
+      },
+      {
+        "x": -4,
+        "y": 1,
+        "parts": [ "frame_cross", "cargo_space" ]
+      },
+      {
+        "x": -4,
+        "y": 0,
+        "parts": [ "frame_cross", "cargo_space" ]
+      }
+    ]
   }
 ]
